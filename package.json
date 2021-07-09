@@ -1,7 +1,8 @@
 {
-  "name": "tailwindcss-angular-app",
-  "version": "0.0.0",
   "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -9,6 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "name": "tailwindcss-angular-app",
+  "version": "0.0.0",
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.10",
@@ -28,6 +31,11 @@
     "@angular-devkit/build-angular": "~0.1102.9",
     "@angular/cli": "~11.2.9",
     "@angular/compiler-cli": "~11.2.10",
+    "@layer0/angular": "^3.16.1",
+    "@layer0/cli": "^3.16.1",
+    "@layer0/core": "^3.16.1",
+    "@layer0/devtools": "^3.16.1",
+    "@layer0/prefetch": "^3.16.1",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
